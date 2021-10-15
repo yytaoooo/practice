@@ -8,11 +8,12 @@ import Clock from './clock'
 import Events from './events'
 import Greeting from './greeting';
 import NameForm from './form';
+import Filter  from './filter'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <NameForm />
+    <Filter />
   </React.StrictMode>,
   document.getElementById('root')
 );
