@@ -31,3 +31,13 @@ function UserInfo(props) {
         </div>
     )
 }
+
+//纯函数
+function sun(a, b) {
+    return a + b
+}
+
+//非纯函数，更改了入参
+function withdraw(account, amount) {
+    account.total -= amount
+}
